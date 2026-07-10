@@ -223,16 +223,10 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-auto border-t border-slate-200 bg-white py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center text-xs text-slate-500">
           <p className="font-medium text-slate-600">
             &copy; {new Date().getFullYear()} <span className="font-semibold text-slate-900">All Rights Reserved by Arvind.</span>
           </p>
-          <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5 font-medium text-slate-600">
-              <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
-              Built with Next.js Pages Router & Prisma
-            </span>
-          </div>
         </div>
       </footer>
     </div>
